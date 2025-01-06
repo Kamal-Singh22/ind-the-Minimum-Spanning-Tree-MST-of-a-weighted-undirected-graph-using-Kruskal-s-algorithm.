@@ -15,3 +15,13 @@ union: Connects two sets by making one root point to the other.
 Print MST:
 
 Displays all edges in the MST and their total weight.
+
+Kruskal's Algorithm is used to find the Minimum Spanning Tree (MST) of a weighted, undirected graph. It selects edges in increasing order of weight, ensuring no cycles are formed, until all vertices are connected.
+
+Key Steps:
+Sort Edges: Arrange edges by weight.
+Union-Find: Use a disjoint-set to detect cycles.
+Select Edges: Add the smallest edge that doesn’t form a cycle.
+Stop: Once 
+𝑉−1
+V−1 edges are included (for V vertices).
